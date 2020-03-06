@@ -54,7 +54,7 @@ end
 def add_s(array)
   array.each do |string|
     if array[1] != string
-     string << "s"
+      string << "s"
     end
   end
 end
